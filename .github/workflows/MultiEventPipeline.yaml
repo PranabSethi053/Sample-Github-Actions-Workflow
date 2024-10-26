@@ -1,5 +1,6 @@
 name: "Multi event pipeline / workflow"  # Name of tghe pipeline
 
+
 on:
     push:    # Event: whenever a push is made to the repository on the master / test branch
         branches:
@@ -53,3 +54,4 @@ jobs:
         steps: # steps to be executed in the job
             - name: "Running on  schedule" # step3
               run: echo "Running  on schedule"
+
