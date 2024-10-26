@@ -8,6 +8,7 @@ on:
     pull_request:  # Event whenever a pull request is made to the repository
         branches:
             - master
+            - newtest
         types: 
             - closed
     workflow_dispatch: # Event
