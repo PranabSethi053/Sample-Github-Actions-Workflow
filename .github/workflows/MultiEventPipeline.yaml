@@ -1,7 +1,7 @@
 name: "Multi event pipeline / workflow"  # Name of tghe pipeline
 
 on:
-    push:    # Event: whenever a push is made to the repository on the master branch
+    push:    # Event: whenever a push is made to the repository on the master / test branch
         branches:
             - master
             - test
