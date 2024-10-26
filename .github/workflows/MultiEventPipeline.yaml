@@ -10,5 +10,5 @@ jobs:
     on-push: # job name
         runs-on: ubuntu-latest
         steps: # steps to be executed in the job
-            - name: "Running on master push"   # step-1
+            - name: "Running on master / test push"   # step-1
               run: echo "running on master push"
