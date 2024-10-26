@@ -9,6 +9,9 @@ on:
         branches:
             - master
     workflow_dispatch: # Event
+
+
+    
 jobs:
     on-push: # job-1
         if: github.event_name == 'push' 
